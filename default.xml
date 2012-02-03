@@ -18,8 +18,8 @@
   <!--remote  name="omapzoom"
            fetch="git://git.omapzoom.org/" /-->
 
-  <!--project path="build" name="CyanogenMod/android_build" -->
-  <project path="build" name="SunRain/android_build">
+  <project path="build" name="CyanogenMod/android_build" >
+  <!--project path="build" name="SunRain/android_build"-->
      
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
