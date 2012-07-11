@@ -2,23 +2,21 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
-           review="https://android-review.googlesource.com/" />
-	   
+          fetch="https://android.googlesource.com/" />    
+  
   <remote  name="omapzoom"
-	   fetch=".."
-	   review="git://git.omapzoom.org/" />
-   
-  <remote name="github"
-           fetch="https://github.com/"
-	   review="review.cyanogenmod.com" />
-	     
+          fetch="git://git.omapzoom.org/" />	   
+    
+ <remote name="github"
+         fetch="https://github.com/" 
+         review="review.cyanogenmod.com" />
+      
   <remote name="private"
-	   fetch="ssh://git@github.com" />       
-	   
+	 fetch="ssh://git@github.com" />   
+	
   <default revision="refs/tags/android-4.1.1_r1"
-           remote="omapzoom"
-           sync-j="4" />
+	 remote="aosp"
+	 sync-j="4" />
 
   <project path="build" name="platform/build" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -38,7 +36,9 @@
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" remote="github" revision="refs/heads/jellybean" />
   
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="github" revision="refs/heads/jellybean" />
+  <!--
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" remote="github" revision="refs/heads/jellybean" />
+  -->
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="refs/heads/jellybean" />
   <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" remote="github" revision="refs/heads/jellybean" />
   
