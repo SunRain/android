@@ -307,19 +307,23 @@
   <project path="pdk" name="platform/pdk" />
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" />
+  <!--
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="CyanogenMod/android_prebuilts_gcc_darwin-x86_arm_arm-eabi-4.6" remote="github" revision="refs/heads/jellybean" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="CyanogenMod/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.6" remote="github" revision="refs/heads/jellybean" />
   <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3" name="CyanogenMod/android_prebuilts_gcc_darwin-x86_mips_mipsel-linux-android-4.4.3" remote="github" revision="refs/heads/jellybean" />
   <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="CyanogenMod/android_prebuilts_gcc_darwin-x86_mips_mipsel-linux-android-4.6" remote="github" revision="refs/heads/jellybean" />
   <project path="prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3" name="CyanogenMod/android_prebuilts_gcc_darwin-x86_x86_i686-android-linux-4.4.3" remote="github" revision="refs/heads/jellybean"  />
   <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="CyanogenMod/android_prebuilts_gcc_darwin-x86_x86_i686-linux-android-4.6" remote="github" revision="refs/heads/jellybean" />
+  -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="CyanogenMod/android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.6" remote="github" revision="refs/heads/jellybean"  />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="CyanogenMod/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.6" remote="github" revision="refs/heads/jellybean" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="CyanogenMod/android_prebuilts_gcc_linux-x86_host_i686-linux-glibc2.7-4.4.3" remote="github" revision="refs/heads/jellybean" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="CyanogenMod/android_prebuilts_gcc_linux-x86_host_i686-linux-glibc2.7-4.6" remote="github" revision="refs/heads/jellybean" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="CyanogenMod/android_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.7-4.6" remote="github" revision="refs/heads/jellybean" />
+  <!--
   <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3" name="CyanogenMod/android_prebuilts_gcc_linux-x86_mips_mipsel-linux-android-4.4.3" remote="github" revision="refs/heads/jellybean" />
   <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="CyanogenMod/android_prebuilts_gcc_linux-x86_mips_mipsel-linux-android-4.6" remote="github" revision="refs/heads/jellybean" />
+  -->
   <project path="prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" name="CyanogenMod/android_prebuilts_gcc_linux-x86_x86_i686-android-linux-4.4.3" remote="github" revision="refs/heads/jellybean" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="CyanogenMod/android_prebuilts_gcc_linux-x86_x86_i686-linux-android-4.6" remote="github" revision="refs/heads/jellybean" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" />
