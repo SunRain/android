@@ -5,6 +5,10 @@
            fetch=".."
            review="https://android-review.googlesource.com/" />
 	   
+  <remote  name="omapzoom"
+	   fetch=".."
+	   review="git://git.omapzoom.org/" />
+   
   <remote name="github"
            fetch="https://github.com/"
 	   review="review.cyanogenmod.com" />
@@ -13,7 +17,7 @@
 	   fetch="ssh://git@github.com" />       
 	   
   <default revision="refs/tags/android-4.1.1_r1"
-           remote="aosp"
+           remote="omapzoom"
            sync-j="4" />
 
   <project path="build" name="platform/build" >
