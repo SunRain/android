@@ -20,7 +20,7 @@
 
 
  <!--  my repo -->
-  <project path="build" name="SunRain/android_build" >
+ <project path="build" name="SunRain/android_build" remote="github" revision="refs/heads/jellybean" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
