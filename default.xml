@@ -25,18 +25,17 @@
   </project>
   
   <project path="android" name="SunRain/android" remote="github" revision="refs/heads/jellybean" />
-  
+  <project path="external/bootmenu" name="SunRain/android_external_bootmenu" remote="github" revision="refs/heads/ics"/>
   <project path="frameworks/base" name="SunRain/android_frameworks_base" remote="github" revision="refs/heads/jellybean" />
   <project path="frameworks/av" name="SunRain/android_frameworks_av" remote="github" revision="refs/heads/jellybean" />
-  <project path="frameworks/native" name="SunRain/android_frameworks_native" remote="github" revision="refs/heads/jellybean" />
-  
+  <project path="frameworks/native" name="SunRain/android_frameworks_native" remote="github" revision="refs/heads/jellybean" />  
   <project path="hardware/ti/omap4xxx" name="SunRain/android_hardware_ti_omap4xxx" remote="github" revision="refs/heads/jellybean" />
-  
+  <project path="packages/apps/FileExplorer" name="SunRain/FileExplorer" remote="github" revision="refs/heads/ics" />
   <project path="system/core" name="SunRain/android_system_core" remote="github" revision="refs/heads/jellybean" />
-  
-  
-  
+    
   <!-- CyanogenMod repo -->
+  <project path="bionic" name="CyanogenMod/android_bionic" remote="github" revision="refs/heads/jellybean" />
+  <project path="dalvik" name="CyanogenMod/android_dalvik" remote="github" revision="refs/heads/jellybean" />
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="refs/heads/jellybean" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="refs/heads/jellybean" />
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="refs/heads/jellybean" />
@@ -44,32 +43,33 @@
   <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" remote="github" revision="refs/heads/jellybean"/>
   <project path="external/rsync" name="CyanogenMod/android_external_rsync" remote="github" revision="refs/heads/jellybean" />
   <project path="external/vim" name="CyanogenMod/android_external_vim" remote="github" revision="refs/heads/jellybean"/>
-  <project path="external/lzo" name="CyanogenMod/android_external_lzo" remote="github" revision="refs/heads/jellybean" />
-  
-  <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" remote="github" revision="refs/heads/jellybean" />
-  
+  <project path="external/webkit" name="CyanogenMod/android_external_webkit" remote="github" revision="refs/heads/jellybean"/>
+  <project path="external/lzo" name="CyanogenMod/android_external_lzo" remote="github" revision="refs/heads/jellybean" />  
+  <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="github" revision="refs/heads/jellybean" />  
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="github" revision="refs/heads/jellybean" />
   <!--
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" remote="github" revision="refs/heads/jellybean" />
   -->
+  <project path="packages/apps/DockAudio" name="Atrix-Dev-Team/android_packages_apps_DockAudio" remote="github" revision="refs/heads/gingerbread" />
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="refs/heads/jellybean" />
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser"  remote="github" revision="refs/heads/ics" />
   <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" remote="github" revision="refs/heads/jellybean" />
-  
-  
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="github" revision="refs/heads/jellybean" /> 
+  <project path="system/netd" name="CyanogenMod/android_system_netd" remote="github" revision="refs/heads/jellybean" /> 
   <project path="system/su" name="CyanogenMod/android_system_su" remote="github" revision="refs/heads/ics" />
+  <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" remote="github" revision="refs/heads/jellybean" /> 
   
   
+  <!-- TI repo -->
+  <project path="external/crda" name="platform/external/crda" remote="omapzoom" revision="p-ics-mr0" />
+  <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" remote="omapzoom" revision="jb-release" />
   
   <!-- AOSP repo -->
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="platform/bionic" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
   <project path="device/asus/grouper" name="device/asus/grouper" />
   <project path="device/common" name="device/common" />
@@ -225,14 +225,12 @@
   <project path="external/tremolo" name="platform/external/tremolo" />
   <project path="external/v8" name="platform/external/v8" />
   <project path="external/valgrind" name="platform/external/valgrind" />
-  <project path="external/webkit" name="platform/external/webkit" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
-  <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
@@ -350,10 +348,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="platform/system/core" />
-  <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
-  <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="platform/system/vold" />
 
