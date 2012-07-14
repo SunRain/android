@@ -53,7 +53,7 @@
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" remote="github" revision="refs/heads/jellybean" />
   -->
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="refs/heads/jellybean" />
-  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser"  remote="github" revision="refs/heads/jellybean" />
+  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser"  remote="github" revision="refs/heads/ics" />
   <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" remote="github" revision="refs/heads/jellybean" />
   
   
