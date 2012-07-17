@@ -31,7 +31,7 @@
   <project path="frameworks/native" name="SunRain/android_frameworks_native" remote="github" revision="refs/heads/jellybean" />  
   <project path="hardware/ti/omap4xxx" name="SunRain/android_hardware_ti_omap4xxx" remote="github" revision="refs/heads/jellybean" />
   <project path="packages/apps/FileExplorer" name="SunRain/FileExplorer" remote="github" revision="refs/heads/ics" />
-  <project path="packages/apps/Phone" name="SunRain/android_packages_apps_Phone" remote="github" revision="refs/heads/ics" />
+  <project path="packages/apps/Phone" name="SunRain/android_packages_apps_Phone" remote="github" revision="refs/heads/jellybean" />
   <project path="system/core" name="SunRain/android_system_core" remote="github" revision="refs/heads/jellybean" />
     
   <!-- CyanogenMod repo -->
