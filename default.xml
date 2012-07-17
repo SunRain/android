@@ -48,13 +48,22 @@
   <project path="external/webkit" name="CyanogenMod/android_external_webkit" remote="github" revision="refs/heads/jellybean"/>
   <project path="external/lzo" name="CyanogenMod/android_external_lzo" remote="github" revision="refs/heads/jellybean" />  
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="github" revision="refs/heads/jellybean" />  
-  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="github" revision="refs/heads/jellybean" />  
+  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="github" revision="refs/heads/jellybean" />
+  <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="github" revision="refs/heads/jellybean" />
+  <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" remote="github" revision="refs/heads/jellybean" />
+  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="github" revision="refs/heads/jellybean" />
+  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="github" revision="refs/heads/jellybean" />
+  <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" remote="github" revision="refs/heads/jellybean" />
+  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="refs/heads/jellybean" />
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="github" revision="refs/heads/jellybean" />
+  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="refs/heads/jellybean" />
+  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="github" revision="refs/heads/jellybean" /> 
   <project path="libcore" name="CyanogenMod/android_libcore" remote="github" revision="refs/heads/jellybean" />  
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="github" revision="refs/heads/jellybean" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" remote="github" revision="refs/heads/jellybean" />
   <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" remote="github" revision="refs/heads/jellybean" />
   <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" remote="github" revision="refs/heads/jellybean" />
-  <!--
+<!--
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" remote="github" revision="refs/heads/jellybean" />
   -->
   <project path="packages/apps/DockAudio" name="Atrix-Dev-Team/android_packages_apps_DockAudio" remote="github" revision="refs/heads/gingerbread" />
@@ -257,13 +266,6 @@
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="gdk" name="platform/gdk" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
-  <project path="hardware/invensense" name="platform/hardware/invensense" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
-  <project path="hardware/msm7k" name="platform/hardware/msm7k" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
