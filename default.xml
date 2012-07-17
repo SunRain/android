@@ -31,6 +31,7 @@
   <project path="frameworks/native" name="SunRain/android_frameworks_native" remote="github" revision="refs/heads/jellybean" />  
   <project path="hardware/ti/omap4xxx" name="SunRain/android_hardware_ti_omap4xxx" remote="github" revision="refs/heads/jellybean" />
   <project path="packages/apps/FileExplorer" name="SunRain/FileExplorer" remote="github" revision="refs/heads/ics" />
+  <project path="packages/apps/Phone" name="SunRain/android_packages_apps_Phone" remote="github" revision="refs/heads/ics" />
   <project path="system/core" name="SunRain/android_system_core" remote="github" revision="refs/heads/jellybean" />
     
   <!-- CyanogenMod repo -->
@@ -47,7 +48,12 @@
   <project path="external/webkit" name="CyanogenMod/android_external_webkit" remote="github" revision="refs/heads/jellybean"/>
   <project path="external/lzo" name="CyanogenMod/android_external_lzo" remote="github" revision="refs/heads/jellybean" />  
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="github" revision="refs/heads/jellybean" />  
+  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="github" revision="refs/heads/jellybean" />  
+  <project path="libcore" name="CyanogenMod/android_libcore" remote="github" revision="refs/heads/jellybean" />  
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="github" revision="refs/heads/jellybean" />
+  <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" remote="github" revision="refs/heads/jellybean" />
+  <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" remote="github" revision="refs/heads/jellybean" />
+  <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" remote="github" revision="refs/heads/jellybean" />
   <!--
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" remote="github" revision="refs/heads/jellybean" />
   -->
@@ -64,6 +70,8 @@
   <!-- TI repo -->
   <project path="external/crda" name="platform/external/crda" remote="omapzoom" revision="p-ics-mr0" />
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" remote="omapzoom" revision="jb-release" />
+  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" remote="omapzoom" revision="p-jb-release" />
+  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" remote="omapzoom" revision="p-jb-release" />
   
   <!-- AOSP repo -->
   <project path="abi/cpp" name="platform/abi/cpp" />
@@ -256,11 +264,7 @@
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
-  <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
-  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
-  <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
@@ -271,7 +275,6 @@
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
@@ -281,16 +284,13 @@
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
