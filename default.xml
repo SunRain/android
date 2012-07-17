@@ -96,9 +96,9 @@
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
-  <project path="device/moto/common" name="device/motorola/common" />
-  <project path="device/moto/stingray" name="device/motorola/stingray" />
-  <project path="device/moto/wingray" name="device/motorola/wingray" />
+  <project path="device/motorola/common" name="device/moto/common" />
+  <project path="device/motorola/stingray" name="device/moto/stingray" />
+  <project path="device/motorola/wingray" name="device/moto/wingray" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/crespo" name="device/samsung/crespo" />
   <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" />
