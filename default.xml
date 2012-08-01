@@ -25,7 +25,7 @@
   </project>
   
   <project path="android" name="SunRain/android" />
-  <project path="external/bootmenu" name="SunRain/android_external_bootmenu" remote="github" revision="refs/heads/ics"/>
+  <project path="external/bootmenu" name="SunRain/android_external_bootmenu" />
   <project path="frameworks/base" name="SunRain/android_frameworks_base" />
   <project path="frameworks/av" name="SunRain/android_frameworks_av" />
   <project path="frameworks/native" name="SunRain/android_frameworks_native" />  
