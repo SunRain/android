@@ -7,7 +7,7 @@
   <remote  name="omapzoom"
           fetch="git://git.omapzoom.org/" />	   
     
- <remote name="github"
+  <remote name="github"
          fetch="https://github.com/" 
          review="review.cyanogenmod.com" />
       
@@ -17,7 +17,6 @@
   <default revision="refs/heads/jellybean"
 	 remote="github"
 	 sync-j="4" />
-
 
  <!--  my repo -->
  <project path="build" name="SunRain/android_build" >
@@ -176,6 +175,7 @@
   <project path="external/protobuf" name="CyanogenMod/android_external_protobuf" />
   <project path="external/qemu" name="CyanogenMod/android_external_qemu" />
   <project path="external/qemu-pc-bios" name="CyanogenMod/android_external_qemu-pc-bios" />
+  <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" />
   <project path="external/quake" name="CyanogenMod/android_external_quake" />
   <project path="external/regex-re2" name="CyanogenMod/android_external_regex-re2" />
   <project path="external/replicaisland" name="CyanogenMod/android_external_replicaisland" />
@@ -281,6 +281,7 @@
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" revision="refs/heads/ics" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
   <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" />
+  <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
   <project path="packages/apps/VideoEditor" name="CyanogenMod/android_packages_apps_VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" />
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
@@ -343,5 +344,5 @@
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
-  <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />  
+  <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
 </manifest>
