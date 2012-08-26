@@ -33,11 +33,17 @@
   <project path="packages/apps/Phone" name="SunRain/android_packages_apps_Phone" />
   <project path="system/core" name="SunRain/android_system_core" />
     
+  <!-- STS dev team repo -->
+  <project path="vendor/motorola/common" name="STS-Dev-Team/android_vendor_motorola_common" revision="jb" />
+  
   <!-- TI repo -->
+  <project path="external/bltsville" name="platform/external/bltsville" remote="omapzoom" revision="master"/>
   <project path="external/crda" name="platform/external/crda" remote="omapzoom" revision="p-ics-mr0" />
+  <project path="external/wpa_supplicant_8_ti" name="platform/external/wpa_supplicant_8_ti" remote="omapzoom" revision="jb-release" />
+  <project path="device/ti/common-open" name="device/ti/common-open" remote="omapzoom" revision="jb-release" />
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" remote="omapzoom" revision="jb-release" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" remote="omapzoom" revision="p-jb-release" />
-  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" remote="omapzoom" revision="p-jb-release" />
+  <project path="hardware/ti/domx" name="platform/hardware/ti/domx" remote="omapzoom" revision="jb-release" />
+  <project path="packages/apps/OMAPCamera" name="platform/packages/apps/OMAPCamera" remote="omapzoom" revision="jb-release" />
   
   <!-- CyanogenMod repo -->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
