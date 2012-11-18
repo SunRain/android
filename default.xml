@@ -23,19 +23,19 @@
            sync-j="4" />
 
  <!--  my repo -->
- <project path="build" name="SunRain/android_build" revision="jb-maic" >
+ <project path="build" name="SunRain/android_build" revision="jellybean" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
-  <project path="android" name="SunRain/android" revision="jb-maic" />
-  <project path="frameworks/base" name="MagicDevTeam/android_frameworks_base" remote="magic" revision="jb-maic" />
-  <project path="frameworks/magic" name="MagicDevTeam/android_frameworks_magicmod" remote="magic" revision="jb-maic" />
-  <project path="packages/apps/Contacts" name="MagicDevTeam/android_packages_apps_Contacts" remote="magic" revision="jb-maic" />
-  <project path="packages/apps/Mms" name="MagicDevTeam/android_packages_apps_Mms" remote="magic" revision="jb-maic" />
-  <project path="packages/apps/Phone" name="MagicDevTeam/android_packages_apps_Phone" remote="magic" revision="jb-maic" />
-  <project path="packages/apps/Settings" name="MagicDevTeam/android_packages_apps_Settings" remote="magic" revision="jb-maic" />
-  <project path="vendor/cm" name="MagicDevTeam/android_vendor_cm" remote="magic" revision="jb-maic" />
+  <project path="frameworks/base" name="MagicDevTeam/android_frameworks_base" remote="magic" revision="jb-magic" />
+  <project path="frameworks/magic" name="MagicDevTeam/android_frameworks_magicmod" remote="magic" revision="jb-magic" />
+  <project path="packages/apps/Contacts" name="MagicDevTeam/android_packages_apps_Contacts" remote="magic" revision="jb-magic" />
+  <project path="packages/apps/Mms" name="MagicDevTeam/android_packages_apps_Mms" remote="magic" revision="jb-magic" />
+  <project path="packages/apps/Phone" name="MagicDevTeam/android_packages_apps_Phone" remote="magic" revision="jb-magic" />
+  <project path="packages/apps/Settings" name="MagicDevTeam/android_packages_apps_Settings" remote="magic" revision="jb-magic" />
+  <project path="vendor/cm" name="MagicDevTeam/android_vendor_cm" remote="magic" revision="jb-magic" />
   
+  <project path="android" name="SunRain/android" revision="jb-magic" />
   <project path="external/bootmenu" name="SunRain/android_external_bootmenu" revision="jellybean" />
   <project path="frameworks/av" name="SunRain/android_frameworks_av" revision="jellybean" />
   <project path="frameworks/native" name="SunRain/android_frameworks_native" revision="jellybean" />
