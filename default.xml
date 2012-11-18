@@ -12,7 +12,7 @@
          review="review.cyanogenmod.com" />
       
   <remote name="private"
-          fetch="ssh://git@github.com" />
+          fetch="git@github.com" />
   
   <remote name="magic"
           fetch="ssh://git@bitbucket.org" />
@@ -36,12 +36,12 @@
   <project path="packages/apps/Settings" name="MagicDevTeam/android_packages_apps_Settings" remote="magic" revision="jb-maic" />
   <project path="vendor/cm" name="MagicDevTeam/android_vendor_cm" remote="magic" revision="jb-maic" />
   
-  <project path="external/bootmenu" name="SunRain/android_external_bootmenu" />
-  <project path="frameworks/av" name="SunRain/android_frameworks_av" />
-  <project path="frameworks/native" name="SunRain/android_frameworks_native" />  
-  <project path="hardware/ti/omap4xxx" name="SunRain/android_hardware_ti_omap4xxx" />
+  <project path="external/bootmenu" name="SunRain/android_external_bootmenu" revision="jellybean" />
+  <project path="frameworks/av" name="SunRain/android_frameworks_av" revision="jellybean" />
+  <project path="frameworks/native" name="SunRain/android_frameworks_native" revision="jellybean" />
+  <project path="hardware/ti/omap4xxx" name="SunRain/android_hardware_ti_omap4xxx" revision="jb-stock-dev" />
   <project path="packages/apps/FileExplorer" name="SunRain/FileExplorer" remote="github" revision="refs/heads/ics" />
-  <project path="system/core" name="SunRain/android_system_core" />
+  <project path="system/core" name="SunRain/android_system_core" revision="jellybean" />
     
   <!-- STS dev team repo -->
   <project path="development" name="STS-Dev-Team/android_development" revision="jellybean" />
