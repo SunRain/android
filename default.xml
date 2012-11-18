@@ -15,7 +15,7 @@
           fetch="git@github.com" />
   
   <remote name="magic"
-          fetch="ssh://git@bitbucket.org" />
+          fetch="git@bitbucket.org" />
 
   <default revision="refs/heads/jellybean-stable"
            remote="github"
@@ -27,7 +27,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
-  <project path="android" name="MagicDevTeam/android" remote="magic" revision="jb-maic" />
+  <project path="android" name="SunRain/android" revision="jb-maic" />
   <project path="frameworks/base" name="MagicDevTeam/android_frameworks_base" remote="magic" revision="jb-maic" />
   <project path="frameworks/magic" name="MagicDevTeam/android_frameworks_magicmod" remote="magic" revision="jb-maic" />
   <project path="packages/apps/Contacts" name="MagicDevTeam/android_packages_apps_Contacts" remote="magic" revision="jb-maic" />
