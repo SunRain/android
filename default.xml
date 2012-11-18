@@ -12,10 +12,10 @@
          review="review.cyanogenmod.com" />
       
   <remote name="private"
-          fetch="git@github.com" />
+	  fetch="ssh://git@github.com" />
   
   <remote name="magic"
-          fetch="https://bitbucket.org" />
+	  fetch="ssh://git@bitbucket.org" />
 
   <default revision="refs/heads/jellybean-stable"
            remote="github"
