@@ -45,6 +45,8 @@
     
   <!-- STS dev team repo -->
   <project path="development" name="STS-Dev-Team/android_development" revision="jellybean" />
+  <project path="frameworks/opt/mms" name="STS-Dev-Team/android_frameworks_opt_mms" revision="master"/>
+  <project path="frameworks/opt/telephony" name="STS-Dev-Team/android_frameworks_opt_telephony" revision="jellybean"/>
   <project path="hardware/libhardware" name="STS-Dev-Team/android_hardware_libhardware" revision="jellybean" />
   <project path="hardware/libhardware_legacy" name="STS-Dev-Team/android_hardware_libhardware_legacy" revision="jellybean" />
   <project path="hardware/ril" name="STS-Dev-Team/android_hardware_ril" revision="jellybean" />
