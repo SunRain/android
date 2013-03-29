@@ -20,7 +20,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="CyanogenMod/android" />
+  <project path="android" name="SunRain/android" revision="jb-cm" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
   <project path="bionic" name="CyanogenMod/android_bionic" />
@@ -30,14 +30,14 @@
   <project path="cts" name="CyanogenMod/android_cts" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
-  <project path="device/common" name="CyanogenMod/android_device_common" />
+  <!-- project path="device/common" name="CyanogenMod/android_device_common" />
   <project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" />
   <project path="device/generic/armv7-a" name="CyanogenMod/android_device_generic_armv7-a" />
   <project path="device/generic/goldfish" name="CyanogenMod/android_device_generic_goldfish" />
   <project path="device/google/accessory/arduino" name="CyanogenMod/android_device_google_accessory_arduino" />
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" />
-  <project path="device/ti/panda" name="CyanogenMod/android_device_ti_panda" />
+  <project path="device/ti/panda" name="CyanogenMod/android_device_ti_panda" / -->
   <project path="docs/source.android.com" name="CyanogenMod/android_docs_source.android.com" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" />
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" />
@@ -299,13 +299,13 @@
   <project path="packages/wallpapers/PhaseBeam" name="CyanogenMod/android_packages_wallpapers_PhaseBeam" />
   <project path="pdk" name="CyanogenMod/android_pdk" />
   <project path="prebuilt" name="platform/prebuilt" remote="aosp" revision="jb-dev" />
-  <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" remote="aosp" revision="jb-dev" />
+  <!-- project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" remote="aosp" revision="jb-dev" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="CyanogenMod/android_prebuilts_gcc_darwin-x86_arm_arm-eabi-4.6" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" remote="aosp" revision="jb-dev" />
   <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3" remote="aosp" revision="jb-dev" />
   <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" remote="aosp" revision="jb-dev" />
   <project path="prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3" name="platform/prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3" remote="aosp" revision="jb-dev" />
-  <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" remote="aosp" revision="jb-dev" / -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" remote="aosp" revision="jb-dev" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" remote="aosp" revision="jb-dev" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" remote="aosp" revision="jb-dev" />
