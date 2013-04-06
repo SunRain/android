@@ -36,6 +36,7 @@
     
   <!-- STS dev team repo -->
   <project path="vendor/motorola/common" name="STS-Dev-Team/android_vendor_motorola_common" revision="jb" />
+  <project path="hardware/ti/wpan" name="Hashcode/android_hardware_ti_wpan" revision="jellybean" />
   
   <!-- TI repo -->
   <project path="external/bltsville" name="platform/external/bltsville" remote="omapzoom" revision="master"/>
@@ -44,6 +45,7 @@
   <!--project path="device/ti/common-open" name="device/ti/common-open" remote="omapzoom" revision="jb-release" />
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" remote="omapzoom" revision="jb-release" / -->
   <project path="hardware/ti/domx" name="platform/hardware/ti/domx" remote="omapzoom" revision="jb-release" />
+  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" remote="omapzoom" revision="p-jb-release" />
   <project path="packages/apps/OMAPCamera" name="platform/packages/apps/OMAPCamera" remote="omapzoom" revision="jb-release" />
   
   <!-- CyanogenMod repo -->
@@ -249,8 +251,6 @@
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" />
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
-  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
-  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" />
   <project path="ndk" name="CyanogenMod/android_ndk" />
