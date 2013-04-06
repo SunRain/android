@@ -30,6 +30,8 @@
   <project path="frameworks/av" name="SunRain/android_frameworks_av" />
   <project path="frameworks/native" name="SunRain/android_frameworks_native" />  
   <project path="hardware/ti/omap4xxx" name="SunRain/android_hardware_ti_omap4xxx" />
+  <project path="hardware/libhardware" name="SunRain/android_hardware_libhardware" />  
+  <project path="hardware/libhardware_legacy" name="SunRain/android_hardware_libhardware_legacy" />  
   <project path="packages/apps/FileExplorer" name="SunRain/FileExplorer" remote="github" revision="refs/heads/ics" />
   <project path="packages/apps/Phone" name="SunRain/android_packages_apps_Phone" />
   <project path="system/core" name="SunRain/android_system_core" />
@@ -242,8 +244,6 @@
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" />
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />
-  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" />
   <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" />
